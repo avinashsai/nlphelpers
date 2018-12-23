@@ -41,6 +41,8 @@ corpus = ['He is very good person','He is nasty','He is generous','He is cruel',
 
 maximum_number = 4
 
+from models import Similarity
+
 simi = Similarity(target,corpus,maximum_number)
 
 sim_sen = simi.compute_similarity()
